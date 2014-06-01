@@ -1,0 +1,10 @@
+
+// Make sure Bootstrap don't show ugly MingLiu when the page language is switched to zh-TW.
+body:lang(zh-TW) {
+  font-size: 15px;
+}
+
+// Shim to IE9 for it to support hidden properties
+*[hidden] {
+  display: none;
+}
